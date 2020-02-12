@@ -284,7 +284,8 @@ def winning_team
 end
 
 def player_with_longest_name
-  names.select {|name| name.max}
+  names.select {|name| name.length.max}
+  binding.pry
 end
 
 
