@@ -284,7 +284,7 @@ def winning_team
 end
 
 def player_with_longest_name
-  names.max
+  names.max_by {|n| n.length}
   binding.pry
 end
 
