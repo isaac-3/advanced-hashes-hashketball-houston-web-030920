@@ -285,6 +285,7 @@ end
 
 def player_with_longest_name
   names.max
+  binding.pry
 end
 
 
