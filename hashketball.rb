@@ -281,7 +281,7 @@ def long_name_steals_a_ton?
   p_steals = player_stats(player_with_longest_name)[:steals]
   steals = []
   counter = 0
-  while counter < player_stats(names[counter])[counter].length do
+  while counter < names.length do
     steals << player_stats(names[counter])[:steals]
     counter += 1
   end
