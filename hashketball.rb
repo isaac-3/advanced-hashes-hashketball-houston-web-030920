@@ -204,19 +204,19 @@ def player_stats(players_name)
   end
 end
 
-def names
-  names = []
-  game_hash.each do |loc, team|
-    team.each do |att, data|
-      if att == :players
-        data.each do |players|
-          names << players[:player_name]
-        end
-      end
-    end
-  end
-  names
-end
+# def names
+#   names = []
+#   game_hash.each do |loc, team|
+#     team.each do |att, data|
+#       if att == :players
+#         data.each do |players|
+#           names << players[:player_name]
+#         end
+#       end
+#     end
+#   end
+#   names
+# end
 
 def biggest_shoe
   sizes = []
@@ -283,9 +283,9 @@ def winning_team
   t_winner
 end
 
-def player_with_longest_name
-  names.max_by {|n| n.length}
-end
+# def player_with_longest_name
+#   names.max_by {|n| n.length}
+# end
 
 
 
