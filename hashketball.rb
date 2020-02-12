@@ -285,10 +285,10 @@ def long_name_steals_a_ton?
     steals << player_stats(names[counter])[:steals]
     if steals.max == p_steals
       return true
-    else false
     end
     counter += 1
   end
+  false
 end
 
 
