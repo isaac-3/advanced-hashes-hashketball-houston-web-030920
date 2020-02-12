@@ -268,7 +268,7 @@ end
 
 def winning_team
   t_score = 0
-  t_name = ""
+  t_winner = ""
   game_hash.each do |loc, team|
     t_name = team[:team_name]
     t_points = 0
@@ -277,10 +277,10 @@ def winning_team
     end
     if t_points > t_score
       t_score = t_points
-      t_name = team[:team_name]
+      t_winner = t_name
     end
   end
-  t_name
+  t_winner
 end
 
 
