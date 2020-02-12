@@ -204,16 +204,6 @@ def player_stats(players_name)
   end
 end
 
-def biggest_shoe
-  sizes = []
-  counter = 0 
-  while counter < names.length do
-    sizes << shoe_size(names[counter])
-    counter += 1
-  end
-  sizes.max
-end
-
 def big_shoe_rebounds
   big_shoe_size = 0
   rebounds = 0
@@ -288,6 +278,7 @@ def player_with_longest_name
 end
 
 def long_name_steals_a_ton?
+  
 end
 
 
