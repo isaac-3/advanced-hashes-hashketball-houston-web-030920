@@ -283,9 +283,11 @@ def winning_team
   t_winner
 end
 
-# def player_with_longest_name
-#   names.max_by {|n| n.length}
-# end
+
+
+def player_with_longest_name
+  names.max_by {|n| n.length}
+end
 
 
 
