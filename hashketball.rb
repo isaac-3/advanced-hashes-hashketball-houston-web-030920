@@ -282,9 +282,10 @@ def long_name_steals_a_ton?
   steals = []
   counter = 0
   while counter < player_stats(names[counter]).length do
-    steals << 
+    steals << player_stats(names[counter])[:steals]
     counter += 1
   end
+  binding.pry
 end
 
 
