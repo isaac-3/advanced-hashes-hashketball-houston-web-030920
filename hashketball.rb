@@ -282,7 +282,7 @@ def long_name_steals_a_ton?
   counter = 0
   binding.pry
   while counter < player_stats(names[counter]).length do
-    
+    if player_stats
     counter += 1
   end
 end
