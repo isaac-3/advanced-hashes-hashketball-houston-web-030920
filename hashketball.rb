@@ -283,6 +283,8 @@ def long_name_steals_a_ton?
   counter = 0
   while counter < names.length do
     steals << player_stats(names[counter])[:steals]
+    if steals.max 
+    end
     counter += 1
   end
   binding.pry
