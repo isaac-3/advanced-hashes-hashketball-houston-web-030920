@@ -278,8 +278,12 @@ def player_with_longest_name
 end
 
 def long_name_steals_a_ton?
-  
-  
+  most_steal = player_stats(player_with_longest_name)[:steals]
+  counter = 0
+  binding.pry
+  while counter < player_stats(names[counter]).length do
+    
+  end
 end
 
 
