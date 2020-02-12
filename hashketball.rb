@@ -289,7 +289,6 @@ def long_name_steals_a_ton?
     end
     counter += 1
   end
-  binding.pry
 end
 
 
